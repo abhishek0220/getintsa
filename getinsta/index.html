@@ -1,0 +1,111 @@
+<html><head><title>getinsta</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="img/logo2.jpg" type="image/png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.btn {
+  background-color: rgba(0,0,0,0.5);
+  box-shadow: 4px 4px 20px rgba(255,255,255, 0.85);
+  color: white;
+  text-shadow: 0px 0px 10px black, 0px 0px 10px black;
+  text-align: center;
+  font-size: 24px;
+  transition: 0.3s;
+  border-radius: 0px;
+  width:100%;
+  box-sizing: border-box;
+  padding: 1.5%;
+}
+
+.btn:hover {
+  background-color:#00cc66;
+  color: white;
+}
+.bgimg {
+  text-shadow: 0px 0px 10px black, 0px 0px 10px black;
+  background-image: url('img/garden2.jpg');
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text{
+  color:#ffd633;
+  padding-top:5%;
+}
+.glow {
+  color: #ffff;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff;
+  }
+
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #ffe6f2,0 0 15px #ffe6f2;
+  }
+}
+input {
+background-color: rgba(0,0,0,0.5);
+border: white;
+color: white;
+border-radius: 0px;
+box-sizing: border-box;
+font-size:25px;
+padding: 1.5%;
+}
+input:required {
+  box-shadow: 4px 4px 20px rgba(255,255,255, 0.85);
+}
+#im{
+  box-shadow: 4px 4px 20px rgba(255,255,255, 0.85);
+}
+</style>
+</head>
+<body class="bgimg w3-text-white">
+  <div class="w3-display-topright">
+    <p style="text-shadow: 2px 2px 4px #ff80bf; padding-right:12px">Created and designed with <img src="https://img.icons8.com/color/24/000000/filled-like.png"> by <a href="https://www.facebook.com/abhis.0220" target="_blank">Abhishek</a> & <a href="https://www.facebook.com/ritvik.gupta.39" target="_blank">Rutvik</a></p>
+  </div>
+  <center>
+
+  <div class="w3-display-middle " style="width:100%">
+    <div class=" w3-padding-large w3-xlarge">
+        <img id="im" src=img/logo2.jpg width=15% style="border-radius: 12px;">
+    </div>
+    <h1 style=" font-size:7vw; color:white; text-shadow: 2px 2px 4px #ff80bf; border:black;"><b>getinsta</b></h1>
+    <h6 style="font-size:2vw;">Download Insta Images Videos or Profile DP in one click </h6>
+    <div class="w3-container" style="padding:2%">
+      <div class="w3-row" style="padding:1.1%">
+        <form action="download.php" method="post">
+          <div class="w3-col s0 l2">
+            <p></p>
+          </div>
+          <div class="w3-col s12 l8">
+            <input type="url" class="inp" name="url" placeholder="Enter URL" style="width: 80%; height:40%" required><br><br>
+          </div>
+      </div>
+      <br>
+      <div class="w3-row">
+        <div class="w3-col s4 l5">
+          <p></p>
+        </div>
+        <div class="w3-col s4 l2">
+          <input class="btn" type="submit" value="SUBMIT">
+        </div>
+        </form>
+      </div>
+    </center>
+  </div>
+  <div class="w3-display-bottomright">
+    <p style="text-shadow: 2px 2px 4px #ff80bf; padding-right:12px">Created for Educational Purpose</p>
+  </div>
+</body>
+</html>
