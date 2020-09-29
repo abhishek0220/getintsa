@@ -13,7 +13,7 @@ body, html {height: 100%}
   color: white;
   text-shadow: 0px 0px 10px black, 0px 0px 10px black;
   text-align: center;
-  font-size: 24px;
+  font-size: 26px;
   transition: 0.3s;
   border-radius: 0px;
   width:100%;
